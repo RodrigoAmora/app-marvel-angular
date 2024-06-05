@@ -2,6 +2,7 @@
 
 ## Descrição:
 Projeto que exibe personagens e HQs da Marvel.
+
 O projeto consulta a API oficial da Marvel: https://developer.marvel.com/ <br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
@@ -36,7 +37,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Autor:
 <b>Rodrigo Amora</b>
 
-LinkedIn: https://linkedin.com/in/rodrigoamora
-
+LinkedIn: https://linkedin.com/in/rodrigoamora <br>
 E-mail: rodrigo.amora.freitas@gmail.com
 <hr>
