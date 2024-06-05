@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {CabecalhoComponent} from "./componentes/cabecalho/cabecalho.component";
+import { CabecalhoComponent } from "./componentes/cabecalho/cabecalho.component";
+import { FooterComponent } from "./componentes/footer/footer.component";
 
 @Component({
   selector: 'app-root',
