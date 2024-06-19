@@ -1,5 +1,5 @@
 main {
-  background: url(/assets/imagens/logo-marvel.webp);
+  background: url(/src/assets/images/logo-marvel.webp);
   background-size: cover;
   min-height: 60vh;
 }
