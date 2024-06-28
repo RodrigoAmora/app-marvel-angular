@@ -7,32 +7,47 @@ O projeto consulta a API oficial da Marvel: https://developer.marvel.com/ <br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
-## Rodando o projeto
-Execute o comando na raiz do projeto:
-```shell script
-ng serve
-```
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
+
 Execute o comando na raiz do projeto:
 ```shell script
 ng build
 ```
 Os artefatos de build serão armazenados no diretório: `dist/`.
 
-## Rodando testes unitearios
+## Rodando testes unitários
+
 Execute o comando na raiz do projeto:
 ```shell script
 ng test
 ```
 
-## Running end-to-end tests
+## Rodando testes end-to-end
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Execute o comando na raiz do projeto:
+```shell script
+ng e2e
+```
+
+## Rodando o projeto
+
+Para rodar a aplicação, execute o comando na raiz do projeto:
+```shell script
+ng serve --host=0.0.0.0 --port=4200
+```
+
+## Docker
+<b>Build da imagem:</b><br>
+Para fazer o build da imagem do Docker, execute o comando na raiz do projeto:
+```shell script
+docker build -t angular-docker .
+```
+
+<b>Rodar o container:</b><br>
+Para rodar a aplicação em um container do Docker, execute o comando na raiz do projeto:
+```shell script
+docker run -p 4201:4200 angular-docker
+```
 
 ## Autor:
 <b>Rodrigo Amora</b>
