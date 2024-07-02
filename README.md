@@ -1,6 +1,6 @@
 # app-marvel-angular
 
-## Descrição:
+## Descrição
 Projeto que exibe personagens e HQs da Marvel.
 
 O projeto consulta a API oficial da Marvel: https://developer.marvel.com/ <br>
@@ -49,7 +49,7 @@ Para rodar a aplicação em um container do Docker, execute o comando na raiz do
 docker run -p 4201:4200 angular-docker
 ```
 
-## Autor:
+## Autor
 <b>Rodrigo Amora</b>
 
 LinkedIn: https://linkedin.com/in/rodrigoamora <br>
