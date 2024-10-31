@@ -12,7 +12,7 @@ echo -e "\n"
 docker_image=$(docker images angular)
 
 if [[ ! -z "${docker_image}" ]]; then
-	echo "\033[01;32mApagando imagem que roda a aplicação....\033[01;32m"
+	echo -e "\033[01;32mApagando imagem que roda a aplicação....\033[01;32m"
 	echo -e "\n"
 	docker rmi -f $docker_image
 	echo -e "\n"
