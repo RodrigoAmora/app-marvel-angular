@@ -40,13 +40,19 @@ ng serve --host=0.0.0.0 --port=4200
 <b>Build da imagem:</b><br>
 Para fazer o build da imagem do Docker, execute o comando na raiz do projeto:
 ```shell script
-docker build -t angular-docker .
+docker-compose build
 ```
 
-<b>Rodar o container:</b><br>
+<b>Subir o container:</b><br>
 Para rodar a aplicação em um container do Docker, execute o comando na raiz do projeto:
 ```shell script
-docker run -p 4201:4200 angular-docker
+sudo docker-compose up -d
+```
+
+##
+Para automatizar esse processo, basta executar o Shellscript <b>`docker_build_and_run.sh`</b> na raiz do projeto:
+```shell script
+./docker_build_and_run.sh
 ```
 
 ## Autor
