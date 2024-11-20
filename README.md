@@ -29,24 +29,22 @@ Execute o comando na raiz do projeto:
 ng e2e
 ```
 
-## Rodando o projeto
-
-Para rodar a aplicação, execute o comando na raiz do projeto:
+## Rodando o projeto localmente
+Para rodar o projeto, execute o comando na raiz do projeto:
 ```shell script
 ng serve --host=0.0.0.0 --port=4200
 ```
 
-## Docker
-<b>Build da imagem:</b><br>
-Para fazer o build da imagem do Docker, execute o comando na raiz do projeto:
+## Rodando o projeto no Docker
+Roando o projeto no Docker.<br>
+<b>Fazendo o build da imagen:</b>
 ```shell script
 docker-compose build
 ```
 
-<b>Subir o container:</b><br>
-Para rodar a aplicação em um container do Docker, execute o comando na raiz do projeto:
+<b>Subindo o container do Docker:</b>
 ```shell script
-sudo docker-compose up -d
+docker-compose up -d
 ```
 
 ##
